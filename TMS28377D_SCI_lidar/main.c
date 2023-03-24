@@ -3,7 +3,7 @@
 #include "math.h"
 
 //sci buff
-#define RX_MAX_LEN 2000
+#define RX_MAX_LEN 200
 
 enum UART_State{Idle, check_start01, check_start02, check_start03, check_start04, check_start05, check_start06, check_start07,
                 Version, PactekLen, Platform, frameNumber, timeCpuCycles, numDetectedObj, numTLVs, subFrameNumber,
