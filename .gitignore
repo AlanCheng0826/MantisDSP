@@ -1,2 +1,6 @@
 Debug/
+Release/
+folder/
+.xdchelp/
+.config/
 .launches/
